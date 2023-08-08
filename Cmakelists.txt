@@ -1,3 +1,7 @@
-﻿project(Main)
+﻿include_directories(.)
 
-add_executable(Main src/main.c)
+project(Main)
+
+aux_source_directory(./src DIR_SRCS)
+
+add_executable(Main ${DIR_SRCS})
