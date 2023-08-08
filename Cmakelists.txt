@@ -1,0 +1,3 @@
+﻿project(Main)
+
+add_executable(Main src/main.c)
